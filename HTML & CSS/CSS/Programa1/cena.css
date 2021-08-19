@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@500&display=swap");
+
+body {
+  background-color: rgba(167, 214, 245, 0.425);
+
+  font-family: "Georama", sans-serif;
+}
+h1 {
+  display: flex;
+  color: rgb(25, 69, 107);
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.list-group {
+  margin-top: 20px;
+  font-family: "Georama", sans-serif;
+}
+.list-group-item {
+  font-size: 20px;
+  font-family: "Georama", sans-serif;
+}
+/* ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+.ingredientes {
+  display: flex;
+  font-size: 32px;
+}

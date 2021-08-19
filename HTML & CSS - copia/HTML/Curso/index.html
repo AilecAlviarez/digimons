@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprendiendo HTML</title>
+  <!-- entre 55 y 65 caracteres -->
+  <meta name="description" content="En esta pagina estamos aprendiendo los fundamentos de HTML">
+  <!-- no mas de 165 caracteres -->
+  <style>
+    h2 {
+      color: orangered;
+    }
+  </style>
+  <link rel="stylesheet" href="assets/estilos.css">
+</head>
+
+<body>
+  <h2>Aprendiendo HTML</h2>
+  <!--Esto es un comentario-->
+  <!-- esto es comentado automaticamente -->
+  <p>hola, escribiendo mi primer documento HTML</p>
+  <p>Aprendiendo sobre, Diseño Web</p>
+  <hr>
+
+  <h2>Encabezados HTML</h2>
+  <h1>Encabezado nivel 1</h1>
+  <!-- un solo tituto h1 en toda la pagina para mejor CEO -->
+  <h2>Encabezado nivel 2 </h2>
+  <h3>Encabezado nivel 3</h3>
+  <h4>Encabezado nivel 4</h4>
+  <h5>Encabezado nivel 5</h5>
+  <h6>Encabezado nivel 6</h6>
+  <hr>
+
+  <h2>Etiquetas de texto basicas</h2>
+  <p>Un parrafo</p>
+  <!-- lorem se utiliza para tener un texto -->
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, recusandae? Est nesciunt fuga accusantium dolores
+    atque nihil aspernatur quod hic praesentium non, recusandae enim, magnam facilis, aut aliquid. Dolorum, unde.</p>
+
+  <p>
+    Palabras en: <b>negrita</b>,<i>italica</i>,<u>subrayado</u>,e=mc <sup>2</sup>,H <sub>2</sub>O,
+    <mark>marcatexto</mark> <small>letras pequeñas</small>
+  </p>
+  <hr>
+
+  <h2>Etiquetas de texto semanticas</h2>
+  <p>
+    <!-- le dan significa dentro del navegador -->
+    <!-- importancia negrita-->
+    <strong>Este texto es importante</strong>
+    <!-- enfasis cursiva-->
+    <em>Este texto hace enfasis</em>
+  </p>
+  <!-- para citar algun autor en especifico -->
+  <blockquote>Yo solo se, que no se nada</blockquote>
+  <cite>socrates</cite>
+  <hr>
+  <h2>Etiquetas de salto</h2>
+  <p>
+    <!-- salto de linea "br" -->
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, at?<br> Quia et fugit consequatur, saepe voluptas
+    recusandae ullam delectus voluptates corrupti ipsam, dolores nobis tenetur perferendis dolor modi. <br><br>, nihil?
+  </p>
+  <!-- saltos semanticos entre bloques de contenido, divide secciones "hr"-->
+  <hr>
+
+  <h2>Etiquetas de formateo</h2>
+  <!-- respeta la forma en que se escribe en el programa -->
+  <p>
+  <pre>
+      Tareas por hacer
+      -HTML
+      - Terminar de grabar las secciones de este curso
+       - Editar en un solo video
+      -CSS
+        - Comenzar a grabar secciones CSS
+        - Editar un solo video
+    </pre>
+  </p>
+  <p>
+    <code>Este texto esta en formato de codigo</code>
+  </p>
+  <p>
+  <pre>
+      <code>
+        &lt q cite="http://www.imdb.com/title/tt0468569/">
+          Hay hombres que solo quieren ver arder el mundo.
+        &gt
+</code>
+    </pre>
+  </p>
+  <hr>
+
+  <h2>Etiquetas semanticas estructurales</h2>
+  <div>Div es una etiqueta contenedora que no tiene semantica</div>
+  <header>header-Cabecera de un sitio web o de una seccion</header>
+  <!-- solo puede existir una main por documento -->
+  <main>
+    main-Define la seccion principal del cocumento, solo debe existir una
+  </main>
+  <footer>footer-Pie de pagina de un sitio web o de una sección</footer>
+  <nav>nav- Representa una navegación</nav>
+  <article>
+    article-Representa una sección autocontenido (que por si slla se explica)
+  </article>
+  <!-- se puede colocar la publicidad en aside -->
+  <aside>aside- Representa contenido complementario o secundario</aside>
+  <!-- el uso de section y article es subjetivo se puede utilizar dependiendo del conenido que se este utilizando -->
+  <section>section- representa una sección de contenido generico</section>
+  <address>addres- Representa una dirección fisica o información de contacto</address>
+  <hr>
+
+  <h2>Etiquetas de bloque VS etiquetas de linea</h2>
+  <!-- los h y los parrafos tambien son de bloque -->
+  <div style="background-color: aqua ; " style="color: orangered"">La etiqueta de bloque por excelencia es la div, una etiqueta de bloque es aquella
+    que genera saltos de linea con sus etiquetas hermanas</div>
+  <!-- las etiquetas de texto son de linea -->
+  <span style=" background-color: aquamarine;">La etiqueta de linea por ecxelentia es span, una etiqueta de linea solo
+    ocupa el espacio necesario que tiene su conteniso</span>
+    <span>Hola soy otra span</span>
+    <hr>
+
+    <h2>Estilos CSS en HTML</h2>
+    <hr>
+
+    <h2>Scripts en HTML</h2>
+    <!-- deben ir al final -->
+    <!-- existen dos formas -->
+    <!-- 1 -->
+    <script>
+      console.log("Hola estamos aprendiendo HTML");
+    </script>
+
+
+
+
+
+</body>
+
+</html>

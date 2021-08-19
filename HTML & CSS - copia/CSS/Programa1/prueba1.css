@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: (Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif);
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(122, 56, 209, 0.644);
+  font-size: 30px;
+  height: 60px;
+}
+
+a {
+  margin-top: 7px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  list-style: none;
+}
+
+.card {
+  background-color: rgba(191, 231, 241, 0.432);
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.d-flex {
+  display: flex;
+  justify-content: end;
+}

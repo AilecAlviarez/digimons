@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@500&display=swap");
+
+body {
+  background-color: rgba(137, 212, 212, 0.404);
+  font-family: "Georama", sans-serif;
+}
+
+h1 {
+  display: flex;
+  font-size: 40px;
+  font-family: (Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif);
+  justify-content: center;
+  background-color: rgba(115, 206, 206, 0.034);
+  color: rgb(8, 41, 70);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+nav {
+  display: flex;
+  font-size: 30px;
+}
+
+a {
+  margin-top: 30px;
+  list-style: none;
+  text-decoration: none;
+  color: rgb(57, 20, 71);
+}
+
+.carousel-inner {
+  margin-top: 20px;
+  height: 200px;
+}
+.list-group {
+  margin-top: 30px;
+  font-family: "Georama", sans-serif;
+  margin-left: auto;
+}
+.list-group-item {
+  margin-top: 0;
+  background-color: rgba(201, 212, 233, 0.589);
+  font-family: "Georama", sans-serif;
+  color: rgb(17, 43, 43);
+  list-style: none;
+  text-decoration: none;
+}
+.inicio {
+  background-color: rgba(33, 75, 61, 0.493);
+}
